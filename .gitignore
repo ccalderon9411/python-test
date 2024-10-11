@@ -1,0 +1,47 @@
+# Entorno virtual
+venv/
+env/
+
+# Archivos y carpetas de caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de configuración del entorno (por ejemplo, configuraciones locales)
+*.env
+.env.local
+
+# Archivos de registro
+*.log
+
+# Dependencias descargadas por pip (usualmente en MacOS o Linux)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de cobertura y pruebas
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+coverage.xml
+*.test
+nosetests.xml
+pytest_cache/
+
+# Archivos de configuraciones del editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de Docker (si utilizas Docker en el futuro)
+*.dockerignore
+
+# Archivos de despliegue
+.DS_Store  # Para macOS
+
+# Archivos creados por sistemas operativos
+Thumbs.db
